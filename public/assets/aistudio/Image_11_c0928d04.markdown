@@ -1,0 +1,126 @@
+---
+name: Precision Developer Dark Mode
+colors:
+  surface: '#0f131c'
+  surface-dim: '#0f131c'
+  surface-bright: '#353942'
+  surface-container-lowest: '#0a0e16'
+  surface-container-low: '#181c24'
+  surface-container: '#1c2028'
+  surface-container-high: '#262a33'
+  surface-container-highest: '#31353e'
+  on-surface: '#dfe2ee'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dfe2ee'
+  inverse-on-surface: '#2c3039'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#4edea3'
+  on-secondary: '#003824'
+  secondary-container: '#00a572'
+  on-secondary-container: '#00311f'
+  tertiary: '#ffb783'
+  on-tertiary: '#4f2500'
+  tertiary-container: '#d97721'
+  on-tertiary-container: '#452000'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#ffdcc5'
+  tertiary-fixed-dim: '#ffb783'
+  on-tertiary-fixed: '#301400'
+  on-tertiary-fixed-variant: '#703700'
+  background: '#0f131c'
+  on-background: '#dfe2ee'
+  surface-variant: '#31353e'
+  canvas-bg: '#0B0F17'
+  surface-panel: '#111827'
+  border-subtle: '#1E293B'
+  border-muted: '#1F2937'
+  text-primary: '#F9FAFB'
+  text-secondary: '#9CA3AF'
+  cyber-emerald: '#10B981'
+  electric-indigo: '#6366F1'
+  severity-critical: '#EF4444'
+  severity-high: '#F97316'
+  severity-medium: '#F59E0B'
+  severity-low: '#38BDF8'
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system embodies a high-performance, developer-first aesthetic built for reliability, technical precision, and deep focus. The tone is authoritative, utilitarian, and calm, drawing from dark-mode-native tooling and modern engineering platforms. 
+
+The visual style merges a **Minimalism** framework with functional **High-Contrast** feedback states, relying on a deeply immersive dark canvas, razor-sharp structural lines, and purposeful flashes of chromatic illumination to guide developer workflows without visual fatigue.
+
+## Colors
+
+The color palette is engineered specifically for extended coding sessions and complex data review in dark environments. 
+
+- **Canvas & Surfaces:** Built on a deep void background (`#0B0F17`) layered with elevated slate panels (`#111827`) to establish clear hierarchy between the workspace and containers.
+- **Borders & Dividers:** Subtle, low-contrast structural dividers (`#1E293B` and `#1F2937`) define layout boundaries without visual clutter.
+- **Typography Tints:** High-legibility crisp white (`#F9FAFB`) anchors primary reading, supported by muted slate (`#9CA3AF`) for secondary metadata and inactive states.
+- **Brand Accents:** Electric Indigo (`#6366F1`) drives primary interactive elements and actions, while Cyber Emerald (`#10B981`) serves as the definitive signal for successful verification and passing test suites.
+- **Severity Spectrum:** Purpose-built semantic indicators map directly to developer risk levels: Critical (`#EF4444`), High (`#F97316`), Medium (`#F59E0B`), and Low (`#38BDF8`).
+
+## Typography
+
+The type system pairs **Inter** for crisp, highly readable UI chrome with **JetBrains Mono** for raw code blocks, file paths, diffs, and numeric tokens. 
+
+Ensure line heights remain tight to support dense information architecture without sacrificing scanning speed. Monospaced elements must always maintain strict character alignment across diff additions and deletions.
+
+## Layout & Spacing
+
+The layout model relies on a **Fixed grid** philosophy optimized for multi-pane developer environments (e.g., file trees, editor panes, and AI review sidebars). 
+
+Spacing operates on a strict 4px/8px baseline rhythm. Gutters remain compact (`1rem`) to maximize screen real estate for dense code review modules, while outer canvas margins scale fluidly down to `1rem` on mobile and tablet form factors. Content reflow rules dictate that sidebars collapse into drawer overlays below the 1024px breakpoint.
+
+## Elevation & Depth
+
+Depth is conveyed through **Low-contrast outlines** and subtle tonal stacking rather than heavy drop shadows. 
+
+Surfaces step forward purely through incremental lightness shifts between canvas (`#0B0F17`) and elevated panels (`#111827`), bound by razor-thin, ghost borders (`#1E293B`). Interactive elements reveal state changes exclusively via border luminance shifts and internal fill highlights rather than elevation displacement.
+
+## Shapes
+
+The shape language uses a **Soft** roundedness configuration. 
+
+Containers, panels, and input fields feature restrained corner radii (`0.25rem` to `0.5rem`) to maintain a precise, engineered feel without soft consumer-grade pill shapes. Buttons and badges use crisp, controlled rounding to align with modern IDE design paradigms.
+
+## Components
+
+- **Buttons:** Primary actions utilize Electric Indigo (`#6366F1`) with subtle hover state brightening; secondary actions employ ghost borders on slate panels. Verification actions leverage Cyber Emerald (`#10B981`).
+- **Chips & Badges:** Utilize monospaced typography with tight padding. Severity indicators map directly to semantic colors with low-opacity background tints.
+- **Inputs & Search:** Rendered with solid `#111827` background fills, `#1E293B` borders, and focus rings tinted in Electric Indigo.
+- **Code Blocks & Diffs:** Built on JetBrains Mono, featuring inline line-number columns, soft red/green background highlights for additions and deletions, and sticky header bars for file paths.
+- **Cards & Panels:** Elevated containers with 1px structural borders, designed to house collapsible metadata, test summaries, and AI agent output logs.

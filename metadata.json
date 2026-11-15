@@ -1,0 +1,8 @@
+{
+  "name": "CodeGuardian AI",
+  "description": "AI-powered code review, automated security auditing, one-click diff patching, and executable unit test generation workspace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
